@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee portal</title>
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/popper.min.js"></script>
+<style>
+	body{
+		padding-top: 15px;
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<img src="assets/images/STL.png" alt="Sterlite logo" width="24%" height="18%">
+			</div>
+			<div class="col-md-9" style="margin-top: 50px;">
+				<form action="login" method="post" class="form-group">
+					<div class="row">
+						<div class="col-md-3">
+							<label for="username"> Username :</label>
+						</div>
+						<div class="col-md-9">
+							<input type="text" name="username" id="username" placeholder="Your username" class="form-control" required>
+						</div>
+					</div>
+					<div class="row" style="margin-top: 15px;">
+						<div class="col-md-3">
+							<label for="password"> Password :</label>
+						</div>
+						<div class="col-md-9">
+							<input type="password" name="password" id="password" placeholder="Your password" class="form-control" required>
+						</div>
+					</div>
+					<div class="row" align="center" style="margin-top: 30px;">
+						<div class="col-md-12">
+							<button type="submit" class="btn btn-danger" style="width: 50%">Log In</button>
+						</div>
+					</div>
+					<div class="row" align="center" style="margin-top: 10px;">
+						<div class="col-md-12">
+							<a href="signUp.html" class="badge badge-warning">Sign Up here</a>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
